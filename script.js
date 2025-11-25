@@ -1,5 +1,5 @@
 // Contraseña predefinida
-const CONTRASENA = "210725"; // Cambia esto por la contraseña que desees
+const CONTRASENA = "010925"; // Cambia esto por la contraseña que desees
 
 // Variable para almacenar la contraseña ingresada
 let contrasenaIngresada = "";
@@ -126,4 +126,5 @@ function mostrarCarta() {
     // Mostrar la carta
     seccionCarta.style.display = 'block';
 }
+
 
