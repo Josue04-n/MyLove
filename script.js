@@ -50,7 +50,7 @@ function mostrarContador() {
 
 // Función para actualizar el contador
 function actualizarContador() {
-    const fechaInicio = new Date('2025-07-21T00:00:00-05:00'); // Guayaquil es UTC-5
+    const fechaInicio = new Date('2025-09-01T00:00:00-05:00'); // Guayaquil es UTC-5
 
     // Obtener la hora actual en Guayaquil
     const ahoraGuayaquil = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Guayaquil" }));
@@ -126,5 +126,6 @@ function mostrarCarta() {
     // Mostrar la carta
     seccionCarta.style.display = 'block';
 }
+
 
 
